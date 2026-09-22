@@ -1,8 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Benefits, Classes, ContactUs } from "../Pages";
+import { Benefits, Classes, ContactUs, Home } from "../Pages";
 import Layout from "../Layout";
-import Home from "../Pages/Home";
 
 const router = createBrowserRouter([
   {

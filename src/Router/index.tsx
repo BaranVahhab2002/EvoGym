@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import { Benefits, Classes, ContactUs, Home } from "../Pages";
+import { Benefits, ContactUs, Home } from "../Pages";
 import Layout from "../Layout";
+import OurClasses from "../Pages/OurClasses";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,7 @@ const router = createBrowserRouter([
       },
       {
         path: "classes",
-        element: <Classes />,
+        element: <OurClasses />,
       },
       {
         path: "contact",
